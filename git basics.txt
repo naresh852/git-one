@@ -1,0 +1,25 @@
+in cmd
+git --version
+{to set username}  git config --global user.name naresh
+{to set emal} git config --global user.email nareshreddy371@gmail.com
+git config user.name
+
+{to got back dir} cd ..
+{to go to a dir enter dir name} cd naresh
+
+cd documents
+ls or dir {to see all files}
+
+{to make new dir}  mkdir tsest
+{to create a file}  touch index.html
+{to open with atom} Atom index.html
+{to delete a file}  rm index.html
+{to remove dir}  rmdir test
+
+//==GIT REPO==//
+{TO CREATE REPO } git init
+
+GO TO FILE LOCATION TYPE 
+{TO CHECK STATUS} git status
+{to ADD IT TO stage} git add index.html{file name}
+{to remove from stage}git rm --cached index.html

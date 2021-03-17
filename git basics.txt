@@ -23,3 +23,19 @@ GO TO FILE LOCATION TYPE
 {TO CHECK STATUS} git status
 {to ADD IT TO stage} git add index.html{file name}
 {to remove from stage}git rm --cached index.html
+{to ADD EVERYTHING TO STAGING AREA } git add .
+{to ADD TO COMMIT} git commit -m "adding indexfiles adn styles files"
+{to SEE COMMIT HISTRY} git log
+{to see COMMIT IN ONELINES} git log --oneline
+{to check a commit} git checkout addeff[that ID]
+{to come back to last stage} git checkout master
+{to remove a commit}git revert id
+{to get out of scary screen} shift+:wq
+{to remove commits permanently} git reset id[upto which to remove commitsexcluding curretn ID]
+{to remove commits and reset to previous ver completely}git reset ID --hard
+{to create new branch with new feature-1} git branch feature-1[name of branch]
+{to see all branches}{to see ur in which branch}git branch -a
+
+{to change to a particular branch}git checkout branchname
+{to delete a branch}git branch -D branchname
+{to create and checkout to a branch simultaneaouly} git checkout -b branchname

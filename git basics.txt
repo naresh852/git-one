@@ -43,3 +43,9 @@ GO TO FILE LOCATION TYPE
 
 ==GITHUB===
 {to add code from pc to github} git push url master
+{to give new name to url as akaor alias} git remote add [newname] url
+{when creating a project in github add readme}
+{to download or pull code}git clone url
+{to check repo url alias name} git remote -v
+{to update github to git on local files} git pull origin [branch name]
+{and to see if developers made any changes}  git pull origin master

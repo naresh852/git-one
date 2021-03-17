@@ -39,3 +39,7 @@ GO TO FILE LOCATION TYPE
 {to change to a particular branch}git checkout branchname
 {to delete a branch}git branch -D branchname
 {to create and checkout to a branch simultaneaouly} git checkout -b branchname
+{to merge }git merge feature-a
+
+==GITHUB===
+{to add code from pc to github} git push url master
